@@ -4,8 +4,8 @@ const app = express()
 
 const PORT = process.env.PORT || 5050
 // const router = express.Router()
-const index = require('./public/js/routes')
-const about = require('./public/js/about')
+const index = require('./api/js/routes')
+const about = require('./api/js/about')
 // const serverless = require('serverless-http');
 
 
@@ -23,6 +23,8 @@ app.use(bodyParser.urlencoded({ extend: false }));
 // router.get('/about', about)
 app.use('/projects', index)
 app.use('/about', about)
+
+app.get('/', index)
 
 
 // app.use('/portfolio-express-site', router)
