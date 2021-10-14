@@ -13,7 +13,7 @@ const product = require('./api/product')
 
 
 
-app.set('view engine', 'pug')
+// app.set('view engine', 'pug')
 
 
 // app.use('/static', express.static('public'))
