@@ -25,12 +25,12 @@ app.use(bodyParser.urlencoded({ extend: false }));
 app.use('/projects', index)
 app.use('/about', about)
 
-app.get('/', index)
+
 
 
 // app.use('/portfolio-express-site', router)
 
-app.use("/api/product", product);
+app.get("/api/product", product);
 
 
 // app.use('/.netlify/functions/api', router);
