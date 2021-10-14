@@ -1,0 +1,95 @@
+{
+    "data": {
+        "title": "Portfolio Projects",
+        "projects": [
+            {
+                "liveLink": 1,
+                "githubLink": "https://github.com/programingchicken/a-random-quote-generator",
+                "image": "https://i.imgur.com/SMgg1Or.png",
+                "title": "A Random Quote Generator",
+                "id": 1,
+                "technologies":
+                            [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Git",
+                                "VS Code",
+                                "Accessibility"
+                            ],
+                "description": "A quote generator that generates a random quote."
+            },
+            {
+                "liveLink": 2,
+                "githubLink": "https://github.com/programingchicken/data-pagination-and-filtering",
+                "image": "https://i.imgur.com/8aqSFTi.png",
+                "title": "Data Pagination and Filtering",
+                "id": 2,
+                "technologies":
+                            [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Git",
+                                "VS Code",
+                                "Accessibility"
+                            ],
+                "description": "Student list of 9 or less students per page. This website can toggle between the student pages. You can also search by name of the students."
+            },
+            {
+                "liveLink": 3,
+                "githubLink": "https://github.com/programingchicken/Interactive-Form",
+                "image": "https://i.imgur.com/VWjK6E8.png",
+                "title": "Interactive Form",
+                "id": 3,
+                "technologies":
+                            [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Git",
+                                "VS Code",
+                                "Accessibility"
+                            ],
+                "description": "A Programing class sign-up, with payment options, class options, shirt selections as well."
+            },
+            {
+                "liveLink": 4,
+                "githubLink": "https://github.com/programingchicken/oop-game",
+                "image": "https://i.imgur.com/JyUj19r.png",
+                "title": "OOP: Phrase Hunter",
+                "id": 4,
+                "technologies":
+                            [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+                            ],
+                "description": "A game where you try to find the word; like Jeopardy."
+            },
+            {
+                "liveLink": 5,
+                "githubLink": "https://github.com/programingchicken/public-api-request",
+                "image": "https://i.imgur.com/Ft0fSMC.png",
+                "title": "Public API Request",
+                "id": 5,
+                "technologies":
+                            [
+                                "HTML",
+                                "CSS",
+                                "JavaScript",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP",
+                                "Fetch and Public APIs"
+                            ],
+                "description": "Clickable profiles to make a splash window."
+            }
+        ]
+    }
+}
