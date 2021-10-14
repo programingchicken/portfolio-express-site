@@ -1,5 +1,5 @@
 const express = require('express')
-const bodyParser = require('body-parser')
+// const bodyParser = require('body-parser')
 const app = express()
 
 const PORT = process.env.PORT || 5050
@@ -16,9 +16,9 @@ const product = require('./api/product')
 app.set('view engine', 'pug')
 
 
-app.use('/static', express.static('public'))
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extend: false }));
+// app.use('/static', express.static('public'))
+// app.use(bodyParser.json())
+// app.use(bodyParser.urlencoded({ extend: false }));
 
 // router.get('/projects', index)
 // router.get('/about', about)
