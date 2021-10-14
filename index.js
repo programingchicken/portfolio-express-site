@@ -16,5 +16,5 @@ app.use('/projects', index)
 app.use('/about', about)
 
 
-app.use('/', router)
+app.use('/portfolio-express-site', router)
 // app.listen(3000,'https://programingchicken.github.io/portfolio-express-site/');
