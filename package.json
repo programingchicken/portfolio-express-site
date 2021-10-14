@@ -4,7 +4,7 @@
   "description": "about me",
   "main": "app.js",
   "scripts": {
-    "now-build": "jekyll build && mv build dist"
+    "now-build": "jekyll build && mv _site public"
   },
   "author": "programingChicken",
   "license": "ISC",
