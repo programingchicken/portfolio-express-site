@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "about me",
   "main": "app.js",
+  "engines": {
+    "node":"15.x"
+  },
   "scripts": {
-    "now-build": "jekyll build && mv _site public"
+     "start": "node app.js"
   },
   "author": "programingChicken",
   "license": "ISC",

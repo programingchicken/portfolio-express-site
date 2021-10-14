@@ -1,6 +1,8 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
+
+const PORT = process.env.PORT || 5050
 // const router = express.Router()
 const index = require('./public/js/routes')
 const about = require('./public/js/about')
@@ -29,3 +31,5 @@ app.use('/about', about)
 // app.use('/.netlify/functions/api', router);
 
 // module.exports.handler = serverless(app)
+
+app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
