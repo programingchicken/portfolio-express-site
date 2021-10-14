@@ -4,8 +4,8 @@ const app = express()
 
 const PORT = process.env.PORT || 5050
 // const router = express.Router()
-const index = require('./api/js/routes')
-const about = require('./api/js/about')
+// const index = require('./api/js/routes')
+// const about = require('./api/js/about')
 const product = require('./api/product')
 // const serverless = require('serverless-http');
 
@@ -22,15 +22,15 @@ app.use(bodyParser.urlencoded({ extend: false }));
 
 // router.get('/projects', index)
 // router.get('/about', about)
-app.use('/projects', index)
-app.use('/about', about)
+// app.use('/projects', index)
+// app.use('/about', about)
 
 
 
 
 // app.use('/portfolio-express-site', router)
 
-app.get("/api/product", product);
+app.use("/api/product", product);
 
 
 // app.use('/.netlify/functions/api', router);
