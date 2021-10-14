@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5050
 const product = require('./api/product')
 // const serverless = require('serverless-http');
 
-
+app.use(express.json({ extended: false }));
 
 
 
