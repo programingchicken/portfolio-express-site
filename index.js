@@ -32,7 +32,7 @@ const PORT = process.env.PORT || 8080
 
 // app.use('/portfolio-express-site', router)
 
-app.use("./api/product.js", product);
+app.use("/api/product.js", product);
 
 
 // app.use('/.netlify/functions/api', router);
