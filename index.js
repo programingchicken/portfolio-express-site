@@ -1,10 +1,10 @@
 const express = require('express')
 // const bodyParser = require('body-parser')
 const app = express()
-const product = require('./api/product')
+const product = require('./public/product')
 app.use(express.json({ extended: false }));
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT 
 // const router = express.Router()
 // const index = require('./api/js/routes')
 // const about = require('./api/js/about')
@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 8080
 // app.set('view engine', 'pug')
 
 
-// app.use('/static', express.static('public'))
+app.use('/static', express.static('public'))
 // app.use(bodyParser.json())
 // app.use(bodyParser.urlencoded({ extend: false }));
 
@@ -32,7 +32,7 @@ const PORT = process.env.PORT || 8080
 
 // app.use('/portfolio-express-site', router)
 
-app.use("/api/product.js", product);
+app.use("/public/product.js", product);
 
 
 // app.use('/.netlify/functions/api', router);
