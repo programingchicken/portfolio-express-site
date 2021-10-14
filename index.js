@@ -1,15 +1,17 @@
 const express = require('express')
 // const bodyParser = require('body-parser')
 const app = express()
+const product = require('./api/product')
+app.use(express.json({ extended: false }));
 
-const PORT = process.env.PORT || 5050
+const PORT = process.env.PORT || 8080
 // const router = express.Router()
 // const index = require('./api/js/routes')
 // const about = require('./api/js/about')
-const product = require('./api/product')
+
 // const serverless = require('serverless-http');
 
-app.use(express.json({ extended: false }));
+
 
 
 
@@ -30,7 +32,7 @@ app.use(express.json({ extended: false }));
 
 // app.use('/portfolio-express-site', router)
 
-app.use("/api/product", product);
+app.use("./api/product.js", product);
 
 
 // app.use('/.netlify/functions/api', router);
