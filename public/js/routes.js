@@ -3,6 +3,7 @@ const router = express.Router();
 const data = require('../data/data.json').data
 const { projects } = data 
 
+
 console.log(projects.length)
 
 
