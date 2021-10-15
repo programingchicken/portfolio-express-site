@@ -18,7 +18,7 @@ app.use('/projects', index)
 app.use('/about', about)
 // app.use(express.json({ extended: false }));
 
-app.set('views', __dirname + '/views');
+// app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 
 
