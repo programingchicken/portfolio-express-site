@@ -1,13 +1,13 @@
 const express = require('express')
-// const bodyParser = require('body-parser')
+const bodyParser = require('body-parser')
 const app = express()
-const product = require('./public/product')
+// const product = require('./public/product')
 app.use(express.json({ extended: false }));
 
-const PORT = process.env.PORT 
+const PORT = 3000
 // const router = express.Router()
-// const index = require('./api/js/routes')
-// const about = require('./api/js/about')
+const index = require('./public/js/routes')
+const about = require('./public/js/about')
 
 // const serverless = require('serverless-http');
 
@@ -15,15 +15,15 @@ const PORT = process.env.PORT
 
 
 
-// app.set('view engine', 'pug')
+app.set('view engine', 'pug')
 
 
 app.use('/static', express.static('public'))
-// app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({ extend: false }));
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extend: false }));
 
-// router.get('/projects', index)
-// router.get('/about', about)
+app.use('/projects', index)
+app.use('/about', about)
 // app.use('/projects', index)
 // app.use('/about', about)
 
@@ -32,7 +32,7 @@ app.use('/static', express.static('public'))
 
 // app.use('/portfolio-express-site', router)
 
-app.use("/public/product.js", product);
+// app.use("/public/product.js", product);
 
 
 // app.use('/.netlify/functions/api', router);
@@ -40,3 +40,17 @@ app.use("/public/product.js", product);
 // module.exports.handler = serverless(app)
 
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
+
+// const express = require("express");
+// const app = express();
+
+// const port = 5000;
+
+// app.get('/',(req,res) => {
+//     res.send("This is a sample express app")
+// })
+// // Listen on port 5000
+// app.listen(port, () => {
+//   console.log(`Server is booming on port 5000
+// Visit http://localhost:5000`);
+// });
