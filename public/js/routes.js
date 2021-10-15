@@ -15,7 +15,7 @@ router.get('/:id' , (req, res, next) => {
 
 router.get('/' , (req, res, next) => {
     console.log(projects)
-    res.render('index', {projects} )
+    res.render('index', projects )
 
 })
 
