@@ -4,7 +4,7 @@ const data = require('../data/data.json').data
 const { projects } = data 
 
 
-console.log(projects.length)
+// console.log(projects.length)
 
 
 router.get('/:id' , (req, res, next) => {
@@ -15,7 +15,7 @@ router.get('/:id' , (req, res, next) => {
 
 router.get('/' , (req, res, next) => {
     console.log(projects)
-    res.render('index.pug', projects )
+    res.render('./index.pug', projects )
 
 })
 
