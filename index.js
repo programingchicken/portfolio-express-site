@@ -14,7 +14,7 @@ const about = require('./public/js/about')
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 
-app.use(express.static(path.join(__dirname, './public')));
+app.use('/static', express.static('public'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extend: false }));
 app.use('/projects', index)
