@@ -22,8 +22,8 @@ app.use('/static', express.static('public'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extend: false }));
 
-app.use('/projects', index)
-app.use('/about', about)
+app.get('/projects', index)
+app.get('/about', about)
 // app.use('/projects', index)
 // app.use('/about', about)
 
@@ -54,3 +54,5 @@ app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
 //   console.log(`Server is booming on port 5000
 // Visit http://localhost:5000`);
 // });
+
+module.exports = app
