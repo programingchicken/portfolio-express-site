@@ -11,6 +11,9 @@ const about = require('./public/js/about')
 
 // const serverless = require('serverless-http');
 
+app.set('views', __dirname + '/views');
+app.set('view engine', 'pug');
+
 app.use('/static', express.static('public'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extend: false }));
@@ -18,8 +21,7 @@ app.use('/projects', index)
 app.use('/about', about)
 // app.use(express.json({ extended: false }));
 
-// app.set('views', __dirname + '/views');
-app.set('view engine', 'pug');
+
 
 
 
