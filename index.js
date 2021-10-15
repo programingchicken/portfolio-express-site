@@ -22,8 +22,8 @@ app.use('/static', express.static('public'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extend: false }));
 
-app.get('/projects', index)
-app.get('/about', about)
+app.use('/projects', index)
+app.use('/about', about)
 // app.use('/projects', index)
 // app.use('/about', about)
 
