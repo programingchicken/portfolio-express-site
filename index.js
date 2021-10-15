@@ -14,8 +14,7 @@ const about = require('./public/js/about')
 
 
 
-
-app.set('view engine', 'pug')
+app.set('view engine', 'pug');
 
 
 app.use('/static', express.static('public'))
