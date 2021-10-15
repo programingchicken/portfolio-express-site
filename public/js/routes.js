@@ -14,15 +14,8 @@ router.get('/:id' , (req, res, next) => {
 })
 
 router.get('/' , (req, res, next) => {
-    const projectsArray = []
-    console.log(projectsArray)
-    // const { id } = req.params
-    projects.forEach(project => {
-        projectsArray.push(project)
-
-    })
-    console.log(projectsArray)
-    res.render('index', {projectsArray} )
+    console.log(projects)
+    res.render('index', {projects} )
 
 })
 
