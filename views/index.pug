@@ -9,7 +9,7 @@ block content
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     
-    
+    p #{description}
 
 
   article.portfolio-project-thumbs
@@ -21,7 +21,6 @@ block content
             a(href=`/projects/${project.id}`)
               img.thumbnail(src=`${project.image}`, alt='Code Project Image') 
               h5= project.title
-              p= project.description
           //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
 
           //- The paths in the link's href and img's src attributes

@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 // const product = require('./public/product')
-app.use(express.json({ extended: false }));
+
 
 const PORT = 3000
 // const router = express.Router()
@@ -11,18 +11,20 @@ const about = require('./public/js/about')
 
 // const serverless = require('serverless-http');
 
-
-
+app.use('/static', express.static('public'))
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extend: false }));
+app.use('/projects', index)
+app.use('/about', about)
+// app.use(express.json({ extended: false }));
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 
-app.use('/static', express.static('public'))
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extend: false }));
 
-app.use('/projects', index)
-app.use('/about', about)
+
+
+
 // app.use('/projects', index)
 // app.use('/about', about)
 
