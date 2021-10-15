@@ -19,6 +19,8 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extend: false }));
 app.use('/projects', index)
 app.use('/about', about)
+
+app.get('/', index)
 // app.use(express.json({ extended: false }));
 
 
