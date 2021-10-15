@@ -10,7 +10,7 @@ console.log(projects.length)
 router.get('/:id' , (req, res, next) => {
     const { id } = req.params
     const projectBuild = projects[id - 1]
-     res.render('project' , {projectBuild})
+     res.render('project' , projectBuild)
 })
 
 router.get('/' , (req, res, next) => {
