@@ -1,48 +1,30 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
-// const product = require('./public/product')
 
 
 const PORT = 3000
 // const router = express.Router()
+
+//get routes js
 const index = require('./public/js/routes')
 const about = require('./public/js/about')
 
-// const serverless = require('serverless-http');
-
+//view engine
 app.set('views', __dirname + '/views');
 app.set('view engine', 'pug');
 
+//use
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extend: false }));
+
+
+//routes
 app.use('/projects', index)
 app.use('/about', about)
+app.get('/', index) 
 
-app.get('/', index)
-// app.use(express.json({ extended: false }));
-
-
-
-
-
-
-
-// app.use('/projects', index)
-// app.use('/about', about)
-
-
-
-
-// app.use('/portfolio-express-site', router)
-
-// app.use("/public/product.js", product);
-
-
-// app.use('/.netlify/functions/api', router);
-
-// module.exports.handler = serverless(app)
 
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
 

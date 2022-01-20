@@ -18,14 +18,14 @@ block content
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       each project in projectsArray
           .cell
+            //- The paths in the link's href and img's src attributes
             a(href=`/projects/${project.id}`)
-              img.thumbnail(src=`${project.image}`, alt='Code Project Image') 
+
+              //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
+              img.thumbnail(src=`${project.image}`, alt='Code Project Image')
+
+              //- The project title for the h5 element's text
               h5= project.title
-          //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
 
-          //- The paths in the link's href and img's src attributes
 
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-
-          //- The project title for the h5 element's text
 
