@@ -4,7 +4,6 @@ const app = express()
 
 
 const PORT = 3000
-// const router = express.Router()
 
 //get routes js
 const index = require('./public/js/routes')
@@ -27,19 +26,5 @@ app.get('/', index)
 
 
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
-
-// const express = require("express");
-// const app = express();
-
-// const port = 5000;
-
-// app.get('/',(req,res) => {
-//     res.send("This is a sample express app")
-// })
-// // Listen on port 5000
-// app.listen(port, () => {
-//   console.log(`Server is booming on port 5000
-// Visit http://localhost:5000`);
-// });
 
 module.exports = app
