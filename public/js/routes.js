@@ -1,20 +1,26 @@
 const express = require('express');
 const router = express.Router();
 const data = require('../data/data.json').data
-const { projects } = data 
+const { projects } = data
 
 
 console.log(projects.length)
 
 //get one of the project pages
-router.get('/:id' , (req, res, next) => {
+router.get('/:id', (req, res, next) => {
+    if (response.status === 404) {
+        console.log('this Route is not appart of the website.')
+    }
     const { id } = req.params
-    const {title, description, liveLink, githubLink, image, technologies} = projects[id - 1]
-     res.render('project' , {title, description, liveLink, githubLink, image, technologies})
+    const { title, description, liveLink, githubLink, image, technologies } = projects[id - 1]
+    res.render('project', { title, description, liveLink, githubLink, image, technologies })
 })
 
 //get projects page 
-router.get('/' , (req, res, next) => {
+router.get('/', (req, res, next) => {
+    if (response.status === 404) {
+        console.log('this Route is not appart of the website.')
+    }
     const projectsArray = []
     console.log(projectsArray)
     // const { id } = req.params
@@ -23,7 +29,7 @@ router.get('/' , (req, res, next) => {
 
     })
     console.log(projectsArray)
-    res.render('index', {projectsArray} )
+    res.render('index', { projectsArray })
 
 })
 
