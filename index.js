@@ -24,6 +24,24 @@ app.use('/projects', index)
 app.use('/about', about)
 app.get('/', index) 
 
+// send 404 if no other route matched
+app.use((req, res) => {
+    res.status(404).json({
+      message: 'Route Not Found',
+    });
+    console.log('Could not find route sorry.')
+  });
+  
+  // setup a global error handler
+  app.use((err, req, res, next) => {
+
+  
+    res.status(500).json({
+      message: err.message,
+      error: {},
+    });
+    console.log('Could not find route sorry.')
+  });
 
 app.listen(PORT, () => console.log(`Server is running in port ${PORT}`))
 
