@@ -10,17 +10,18 @@ console.log(projects.length)
 router.get('/:id', (req, res, next) => {
     if (response.status === 404) {
         console.log('this Route is not appart of the website.')
-    }
+    } else {
     const { id } = req.params
     const { title, description, liveLink, githubLink, image, technologies } = projects[id - 1]
     res.render('project', { title, description, liveLink, githubLink, image, technologies })
+    }
 })
 
 //get projects page 
 router.get('/', (req, res, next) => {
     if (response.status === 404) {
         console.log('this Route is not appart of the website.')
-    }
+    } else {
     const projectsArray = []
     console.log(projectsArray)
     // const { id } = req.params
@@ -30,7 +31,7 @@ router.get('/', (req, res, next) => {
     })
     console.log(projectsArray)
     res.render('index', { projectsArray })
-
+}
 })
 
 module.exports = router;

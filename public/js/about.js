@@ -6,8 +6,9 @@ const router = express.Router();
 router.get('/', (req, res) => {
     if (response.status === 404) {
         console.log('this Route is not appart of the website.')
-    }
+    } else {
     res.render('about')
+    }
 })
 
 module.exports = router;
