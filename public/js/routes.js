@@ -8,7 +8,7 @@ console.log(projects.length)
 
 //get one of the project pages
 router.get('/:id', (req, res, next) => {
-    if (response.status === 404) {
+    if (res.status === 404) {
         console.log('this Route is not appart of the website.')
     } else {
     const { id } = req.params
@@ -19,7 +19,7 @@ router.get('/:id', (req, res, next) => {
 
 //get projects page 
 router.get('/', (req, res, next) => {
-    if (response.status === 404) {
+    if (res.status === 404) {
         console.log('this Route is not appart of the website.')
     } else {
     const projectsArray = []
