@@ -21,7 +21,6 @@ app.use(bodyParser.urlencoded({ extend: false }));
 
 //routes
 app.use('/', routes)
-app.use('/', '/project')
 
 // send 404 if no other route matched
 app.use((req, res) => {
