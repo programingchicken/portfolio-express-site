@@ -6,8 +6,8 @@ const app = express()
 const PORT = 3000
 
 //get routes js
-const index = require('./public/js/routes')
-const about = require('./public/js/about')
+const routes = require('./public/js/routes')
+
 
 //view engine
 app.set('views', __dirname + '/views');
@@ -20,9 +20,7 @@ app.use(bodyParser.urlencoded({ extend: false }));
 
 
 //routes
-app.use('/projects', index)
-app.use('/about', about)
-app.get('/', index) 
+app.use('/', routes)
 
 // send 404 if no other route matched
 app.use((req, res) => {
@@ -33,9 +31,7 @@ app.use((req, res) => {
   });
   
   // setup a global error handler
-  app.use((err, req, res, next) => {
-
-  
+  app.use((err, req, res, next) => {  
     res.status(500).json({
       message: err.message,
       error: {},

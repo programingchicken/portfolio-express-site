@@ -7,10 +7,15 @@ const { projects } = data
 console.log(projects.length)
 
 //get one of the project pages
-router.get('/:id', (req, res, next) => {
+router.get('/projects/:id', (req, res, next) => {
     const { id } = req.params
     const { title, description, liveLink, githubLink, image, technologies } = projects[id - 1]
     res.render('project', { title, description, liveLink, githubLink, image, technologies })
+})
+
+//get about page
+router.get('/about', (req, res) => {
+    res.render('about')
 })
 
 //get projects page 
