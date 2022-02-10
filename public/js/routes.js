@@ -19,7 +19,7 @@ router.get('/about', (req, res) => {
 })
 
 //get projects page 
-router.get('/project', (req, res, next) => {
+router.get('/', (req, res, next) => {
 
     const projectsArray = []
     console.log(projectsArray)
