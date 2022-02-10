@@ -35,7 +35,7 @@ app.use((req, res) => {
   app.use((err, req, res, next) => {  
     res
     .status(500)
-    .render('error', {message: err.message, error: {} })
+    .render('error', {message: err.message, status: 500 })
     console.log('Could not find route sorry.')
   });
 
