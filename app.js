@@ -24,20 +24,18 @@ app.use('/', routes)
 
 // send 404 if no other route matched
 app.use((req, res) => {
-    res.status(404).json({
-      message: 'Route Not Found',
-    });
-    res.render('page-not-found', req.message )
+    res
+    .status(404)
+    .render('page-not-found', {message: 'Route Not Found', status: 404} )
+
     console.log('Could not find route sorry.')
   });
   
   // setup a global error handler
   app.use((err, req, res, next) => {  
-    res.status(500).json({
-      message: err.message,
-      error: {},
-    });
-    res.render('error', req.message )
+    res
+    .status(500)
+    .render('error', {message: err.message, error: {} })
     console.log('Could not find route sorry.')
   });
 
