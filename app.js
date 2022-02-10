@@ -26,8 +26,8 @@ app.use('/', routes)
 app.use((req, res) => {
     res.status(404).json({
       message: 'Route Not Found',
-      error: {},
     });
+    res.render('page-not-found', req.message )
     console.log('Could not find route sorry.')
   });
   
@@ -37,6 +37,7 @@ app.use((req, res) => {
       message: err.message,
       error: {},
     });
+    res.render('error', req.message )
     console.log('Could not find route sorry.')
   });
 
