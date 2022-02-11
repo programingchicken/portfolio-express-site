@@ -137,7 +137,8 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(25, 45, 68);
+
 }
 
 .sidebar-info-box {
@@ -229,7 +230,7 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
+  color: #070707;
   margin: 0 auto 8px;
 }
 
@@ -247,7 +248,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: #222;;
+  color: rgb(180, 180, 180);;
   margin: 0 auto 8px;
 }
 
