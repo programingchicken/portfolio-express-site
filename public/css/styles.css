@@ -27,7 +27,7 @@ body {
 }
 
 article {
-  background: #fefefe;
+  background: rgb(180, 180, 180);;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -176,7 +176,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: #999;
 }
 
 .header {
@@ -229,7 +229,7 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: rgb(180, 180, 180);
+  color: #070707;
   margin: 0 auto 8px;
 }
 
@@ -247,7 +247,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;
-  color: rgb(180, 180, 180);;
+  color: rgb(0, 0, 0);
   margin: 0 auto 8px;
 }
 
