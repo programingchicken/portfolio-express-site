@@ -3,10 +3,10 @@
         "title": "Portfolio Projects",
         "projects": [
             {
-                "liveLink": "https://a-random-quote-generator.vercel.app/",
-                "githubLink": "https://github.com/programingchicken/a-random-quote-generator",
-                "image": "https://i.imgur.com/SMgg1Or.png",
-                "title": "A Random Quote Generator",
+                "live_link": "https://a-random-quote-generator.vercel.app/",
+                "github_link": "https://github.com/programingchicken/a-random-quote-generator",
+                "image_urls": "https://i.imgur.com/SMgg1Or.png",
+                "project_name": "A Random Quote Generator",
                 "id": 1,
                 "technologies":
                             [
@@ -20,10 +20,10 @@
                 "description": "A quote generator that generates a random quote."
             },
             {
-                "liveLink": "https://data-pagination-and-filtering-theta.vercel.app/",
-                "githubLink": "https://github.com/programingchicken/data-pagination-and-filtering",
-                "image": "https://i.imgur.com/8aqSFTi.png",
-                "title": "Data Pagination and Filtering",
+                "live_link": "https://data-pagination-and-filtering-theta.vercel.app/",
+                "github_link": "https://github.com/programingchicken/data-pagination-and-filtering",
+                "image_urls": "https://i.imgur.com/8aqSFTi.png",
+                "project_name": "Data Pagination and Filtering",
                 "id": 2,
                 "technologies":
                             [
@@ -37,10 +37,10 @@
                 "description": "Student list of 9 or less students per page. This website can toggle between the student pages. You can also search by name of the students."
             },
             {
-                "liveLink": "https://interactive-form-seven.vercel.app/",
-                "githubLink": "https://github.com/programingchicken/Interactive-Form",
-                "image": "https://i.imgur.com/VWjK6E8.png",
-                "title": "Interactive Form",
+                "live_link": "https://interactive-form-seven.vercel.app/",
+                "github_link": "https://github.com/programingchicken/Interactive-Form",
+                "image_urls": "https://i.imgur.com/VWjK6E8.png",
+                "project_name": "Interactive Form",
                 "id": 3,
                 "technologies":
                             [
@@ -54,10 +54,10 @@
                 "description": "A Programing class sign-up, with payment options, class options, shirt selections as well."
             },
             {
-                "liveLink": "https://oop-game.vercel.app/",
-                "githubLink": "https://github.com/programingchicken/oop-game",
-                "image": "https://i.imgur.com/JyUj19r.png",
-                "title": "OOP: Phrase Hunter",
+                "live_link": "https://oop-game.vercel.app/",
+                "github_link": "https://github.com/programingchicken/oop-game",
+                "image_urls": "https://i.imgur.com/JyUj19r.png",
+                "project_name": "OOP: Phrase Hunter",
                 "id": 4,
                 "technologies":
                             [
@@ -72,10 +72,10 @@
                 "description": "A game where you try to find the word; like Jeopardy."
             },
             {
-                "liveLink": "https://public-api-request.vercel.app",
-                "githubLink": "https://github.com/programingchicken/public-api-request",
-                "image": "https://i.imgur.com/Ft0fSMC.png",
-                "title": "Public API Request",
+                "live_link": "https://public-api-request.vercel.app",
+                "github_link": "https://github.com/programingchicken/public-api-request",
+                "image_urls": "https://i.imgur.com/Ft0fSMC.png",
+                "project_name": "Public API Request",
                 "id": 5,
                 "technologies":
                             [

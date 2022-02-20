@@ -110,6 +110,10 @@ nav {
   border-bottom: 1px solid #eaeaea;
 }
 
+nav h1, h2 {
+  color: #eaeaea;
+}
+
 nav a {
   width: 100%;
   vertical-align: middle;
