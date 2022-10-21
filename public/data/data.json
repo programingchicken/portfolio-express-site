@@ -96,11 +96,55 @@
                 "description": "Clickable profiles to make a splash window."
             },
             {
+                "live_link": "https://gif-search-opal.vercel.app/",
+                "github_link": "https://github.com/programingchicken/gif-search",
+                "image_urls": "https://i.imgur.com/twhus3Z.png",
+                "project_name": "Gif Search App",
+                "id": 6,
+                "technologies":
+                            [
+                                "CSS3",
+                                "sqlite",
+                                "Sequlize",
+                                "GitHub",
+                                "JavaScript",
+                                "ReactJS",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "React app with gif search fetching api"
+            },
+            {
+                "live_link": "https://gif-search-opal.vercel.app/",
+                "github_link": "https://github.com/programingchicken/course-directory",
+                "image_urls": "https://i.imgur.com/9kMpRCR.png",
+                "project_name": "Course-Directory",
+                "id": 7,
+                "technologies":
+                            [
+                                "CSS3",
+                                "sqlite",
+                                "Sequlize",
+                                "GitHub",
+                                "JavaScript",
+                                "ReactJS",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "React app Course Directory"
+            },
+            {
                 "live_link": "https://fitnessobsession.netlify.app/",
                 "github_link": "https://github.com/programingchicken/fitnessJunkiesClient",
                 "image_urls": "https://i.imgur.com/n8BXLCK.png",
                 "project_name": "FitnessObsession",
-                "id": 6,
+                "id": 8,
                 "technologies":
                             [
                                 "CSS3",
@@ -117,11 +161,11 @@
                 "description": "Amazon ad Marketing Website"
             },
             {
-                "live_link": "https://fitnessobsession.netlify.app/",
+                "live_link": "https://melodious-taiyaki-8c7fb3.netlify.app/",
                 "github_link": "https://github.com/programingchicken/full_stack_app",
                 "image_urls": "https://i.imgur.com/twhus3Z.png",
                 "project_name": "Course CRUD App",
-                "id": 7,
+                "id": 9,
                 "technologies":
                             [
                                 "ExpressJS",
