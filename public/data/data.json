@@ -14,6 +14,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility"
                             ],
@@ -31,6 +32,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility"
                             ],
@@ -48,6 +50,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility"
                             ],
@@ -65,6 +68,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility",
                                 "OOP"
@@ -83,6 +87,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility",
                                 "OOP",
@@ -103,6 +108,7 @@
                                 "ReactJS",
                                 "bootstrap",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility",
                                 "OOP"
@@ -113,23 +119,25 @@
             {
                 "live_link": "https://fitnessobsession.netlify.app/",
                 "github_link": "https://github.com/programingchicken/full_stack_app",
-                "image_urls": "https://i.imgur.com/n8BXLCK.png",
+                "image_urls": "https://i.imgur.com/twhus3Z.png",
                 "project_name": "Course CRUD App",
                 "id": 7,
                 "technologies":
                             [
                                 "ExpressJS",
                                 "CSS3",
+                                "sqlite",
+                                "Sequlize",
+                                "GitHub",
                                 "JavaScript",
                                 "ReactJS",
-                                "bootstrap",
                                 "Git",
                                 "VS Code",
                                 "Accessibility",
                                 "OOP"
 
                             ],
-                "description": "First Full Stack App"
+                "description": "First Full Stack App SQLlite dose not work on vercel and express dose not work on netlify just kept the git hub for the back end becuse i didnt want to spend money on a portfolio project"
             }
 
         ]
