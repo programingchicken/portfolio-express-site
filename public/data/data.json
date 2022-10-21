@@ -89,7 +89,49 @@
                                 "Fetch and Public APIs"
                             ],
                 "description": "Clickable profiles to make a splash window."
+            },
+            {
+                "live_link": "https://fitnessobsession.netlify.app/",
+                "github_link": "https://github.com/programingchicken/fitnessJunkiesClient",
+                "image_urls": "https://i.imgur.com/n8BXLCK.png",
+                "project_name": "FitnessObsession",
+                "id": 6,
+                "technologies":
+                            [
+                                "CSS3",
+                                "JavaScript",
+                                "ReactJS",
+                                "bootstrap",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "Amazon ad Marketing Website"
+            },
+            {
+                "live_link": "https://fitnessobsession.netlify.app/",
+                "github_link": "https://github.com/programingchicken/full_stack_app",
+                "image_urls": "https://i.imgur.com/n8BXLCK.png",
+                "project_name": "Course CRUD App",
+                "id": 7,
+                "technologies":
+                            [
+                                "ExpressJS",
+                                "CSS3",
+                                "JavaScript",
+                                "ReactJS",
+                                "bootstrap",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "First Full Stack App"
             }
+
         ]
     }
 }
