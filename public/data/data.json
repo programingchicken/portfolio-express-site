@@ -98,7 +98,7 @@
             {
                 "live_link": "https://gif-search-opal.vercel.app/",
                 "github_link": "https://github.com/programingchicken/gif-search",
-                "image_urls": "https://i.imgur.com/twhus3Z.png",
+                "image_urls": "https://i.imgur.com/cQqqX90.png",
                 "project_name": "Gif Search App",
                 "id": 6,
                 "technologies":
@@ -118,7 +118,7 @@
                 "description": "React app with gif search fetching api"
             },
             {
-                "live_link": "https://gif-search-opal.vercel.app/",
+                "live_link": "https://course-directory-khaki.vercel.app/",
                 "github_link": "https://github.com/programingchicken/course-directory",
                 "image_urls": "https://i.imgur.com/9kMpRCR.png",
                 "project_name": "Course-Directory",
