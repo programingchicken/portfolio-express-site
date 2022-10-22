@@ -161,8 +161,8 @@
                 "description": "Amazon ad Marketing Website"
             },
             {
-                "live_link": "https://fanimiss-client.vercel.app/",
-                "github_link": "https://github.com/programingchicken/fanimiss-client",
+                "live_link": "https://melodious-taiyaki-8c7fb3.netlify.app/",
+                "github_link": "https://github.com/programingchicken/full_stack_app",
                 "image_urls": "https://i.imgur.com/twhus3Z.png",
                 "project_name": "Course CRUD App",
                 "id": 9,
@@ -184,7 +184,7 @@
                 "description": "First Full Stack App SQLlite dose not work on vercel and express dose not work on netlify just kept the git hub for the back end becuse i didnt want to spend money on a portfolio project"
             },
             {
-                "live_link": "https://melodious-taiyaki-8c7fb3.netlify.app/",
+                "live_link": "https://fanimiss-client.vercel.app/",
                 "github_link": "https://github.com/programingchicken/fanimiss-client",
                 "image_urls": "https://i.imgur.com/FNeIf43.png",
                 "project_name": "Fanimiss in progress...",
