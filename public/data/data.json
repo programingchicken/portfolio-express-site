@@ -212,7 +212,7 @@
                 "github_link": "https://fidgeteveryone.com/",
                 "image_urls": "https://i.imgur.com/WKDMWjn.png",
                 "project_name": "Fidget Everyone - WordPress Site with HTML AND CSS",
-                "id": 10,
+                "id": 11,
                 "technologies":
                             [
                                 "Wordpress",
@@ -226,7 +226,7 @@
                                 "Stripe"
 
                             ],
-                "description": "Work in progress ECOM Site"
+                "description": "ECOM Site"
             }
         ]
     }
