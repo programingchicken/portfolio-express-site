@@ -277,6 +277,23 @@
                             ],
                 "description": "ECOM Site"
             }
+            ,
+            {
+                "live_link": "https://trend-49qzdpj2x-programingchickens-projects.vercel.app/",
+                "github_link": "https://github.com/programingchicken/trendCap",
+                "image_urls": "https://i.imgur.com/vfxWwy1.png",
+                "project_name": "Portfolio Project - HTML, AND CSS",
+                "id": 14,
+                "technologies":
+                            [
+                                "CSS3",
+                                "HTML5",
+                                "JavaScript",
+                                "Accessibility",
+
+                            ],
+                "description": "ECOM Site"
+            }
         ]
     }
 }
