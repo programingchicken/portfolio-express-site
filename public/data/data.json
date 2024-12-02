@@ -14,6 +14,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility"
                             ],
@@ -31,6 +32,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility"
                             ],
@@ -48,6 +50,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility"
                             ],
@@ -65,6 +68,7 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility",
                                 "OOP"
@@ -83,12 +87,189 @@
                                 "CSS",
                                 "JavaScript",
                                 "Git",
+                                "GitHub",
                                 "VS Code",
                                 "Accessibility",
                                 "OOP",
                                 "Fetch and Public APIs"
                             ],
                 "description": "Clickable profiles to make a splash window."
+            },
+            {
+                "live_link": "https://gif-search-opal.vercel.app/",
+                "github_link": "https://github.com/programingchicken/gif-search",
+                "image_urls": "https://i.imgur.com/cQqqX90.png",
+                "project_name": "Gif Search App",
+                "id": 6,
+                "technologies":
+                            [
+                                "CSS3",
+                                "sqlite",
+                                "Sequlize",
+                                "GitHub",
+                                "JavaScript",
+                                "ReactJS",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "React app with gif search fetching api"
+            },
+            {
+                "live_link": "https://course-directory-khaki.vercel.app/",
+                "github_link": "https://github.com/programingchicken/course-directory",
+                "image_urls": "https://i.imgur.com/9kMpRCR.png",
+                "project_name": "Course-Directory",
+                "id": 7,
+                "technologies":
+                            [
+                                "CSS3",
+                                "sqlite",
+                                "Sequlize",
+                                "GitHub",
+                                "JavaScript",
+                                "ReactJS",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "React app Course Directory"
+            },
+            {
+                "live_link": "https://fitnessobsession.netlify.app/",
+                "github_link": "https://github.com/programingchicken/fitnessJunkiesClient",
+                "image_urls": "https://i.imgur.com/n8BXLCK.png",
+                "project_name": "FitnessObsession",
+                "id": 8,
+                "technologies":
+                            [
+                                "CSS3",
+                                "JavaScript",
+                                "ReactJS",
+                                "bootstrap",
+                                "Git",
+                                "GitHub",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "Amazon ad Marketing Website"
+            },
+            {
+                "live_link": "https://melodious-taiyaki-8c7fb3.netlify.app/",
+                "github_link": "https://github.com/programingchicken/full_stack_app",
+                "image_urls": "https://i.imgur.com/twhus3Z.png",
+                "project_name": "Course CRUD App",
+                "id": 9,
+                "technologies":
+                            [
+                                "ExpressJS",
+                                "CSS3",
+                                "sqlite",
+                                "Sequlize",
+                                "GitHub",
+                                "JavaScript",
+                                "ReactJS",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "First Full Stack App SQLlite dose not work on vercel and express dose not work on netlify just kept the git hub for the back end becuse i didnt want to spend money on a portfolio project"
+            },
+            {
+                "live_link": "https://fanimiss-client.vercel.app/",
+                "github_link": "https://github.com/programingchicken/fanimiss-client",
+                "image_urls": "https://i.imgur.com/FNeIf43.png",
+                "project_name": "Fanimiss in progress...",
+                "id": 10,
+                "technologies":
+                            [
+                                "ExpressJS",
+                                "CSS3",
+                                "sqlite",
+                                "bootstrap",
+                                "Sequlize",
+                                "GitHub",
+                                "JavaScript",
+                                "ReactJS",
+                                "Git",
+                                "VS Code",
+                                "Accessibility",
+                                "OOP"
+
+                            ],
+                "description": "Work in progress ECOM Site"
+            },
+            {
+                "live_link": "https://fidgeteveryone.com/",
+                "github_link": "https://fidgeteveryone.com/",
+                "image_urls": "https://i.imgur.com/WKDMWjn.png",
+                "project_name": "Fidget Everyone - WordPress Site with HTML AND CSS",
+                "id": 11,
+                "technologies":
+                            [
+                                "Wordpress",
+                                "WooCommerce",
+                                "CSS3",
+                                "HTML5",
+                                "JavaScript",
+                                "Accessibility",
+                                "Elementor",
+                                "Hostinger",
+                                "Stripe"
+
+                            ],
+                "description": "ECOM Site"
+            },
+            {
+                "live_link": "https://yoyossweettreats.com/",
+                "github_link": "No Link",
+                "image_urls": "https://i.imgur.com/qIRYjwQ.png",
+                "project_name": "Yoyoyos Sweet Treats  - WordPress Site with PHP, JavaScript, HTML, AND CSS",
+                "id": 12,
+                "technologies":
+                            [
+                                "Wordpress",
+                                "WooCommerce",
+                                "CSS3",
+                                "HTML5",
+                                "JavaScript",
+                                "Accessibility",
+                                "Elementor",
+                                "AWS",
+                                "Stripe"
+
+                            ],
+                "description": "ECOM Site"
+            }
+            ,
+            {
+                "live_link": "https://www.submarketonline.com/",
+                "github_link": "No Link",
+                "image_urls": "https://i.imgur.com/NlxQEzT.png",
+                "project_name": "SubMarketOnline - WordPress Site with PHP, JavaScript, HTML, AND CSS",
+                "id": 13,
+                "technologies":
+                            [
+                                "Wordpress",
+                                "WooCommerce",
+                                "CSS3",
+                                "HTML5",
+                                "JavaScript",
+                                "Accessibility",
+                                "Elementor",
+                                "Hostinger",
+                                "Stripe"
+
+                            ],
+                "description": "ECOM Site"
             }
         ]
     }
